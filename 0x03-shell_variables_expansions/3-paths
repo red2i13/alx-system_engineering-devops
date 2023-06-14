@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$PATH" | grep -oE "/[a-z]+" | wc -w
+echo "$PATH" | tr ':' '\n' | wc -l
