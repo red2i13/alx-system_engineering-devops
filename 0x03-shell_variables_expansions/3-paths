@@ -1,0 +1,2 @@
+#!/bin/bash
+$PATH | grep -o /[a-z] | wc -w
